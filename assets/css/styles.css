@@ -2,4 +2,9 @@
 
 :root{
     --fuentePrincipal: 'Staatliches', cursive;
+
+    --principal: #6499E7;
+    --secundario: #8E9CD3;
+    --oscuro: #050D2C;
+    --blanco: #ffffff;
 }
