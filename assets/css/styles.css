@@ -8,3 +8,15 @@
     --oscuro: #050D2C;
     --blanco: #ffffff;
 }
+
+/* -- Globales -- */
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
