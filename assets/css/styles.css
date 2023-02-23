@@ -77,3 +77,24 @@ h3{
 .header__logo{
     margin: 3rem 0;
 }
+
+/* -- Navegacion -- */
+
+.navegacion{
+    background-color: var(--secundario);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.navegacion__enlace{
+    color: var(--blanco);
+    font-family: var(--fuentePrincipal);
+    font-size: 3rem;
+}
+
+.navegacion__enlace--activo,
+.navegacion__enlace:hover{
+    color: var(--principal);
+}
