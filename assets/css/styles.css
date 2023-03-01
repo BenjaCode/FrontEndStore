@@ -174,6 +174,30 @@ h3{
     }
 }
 
+/* -- Nosotros -- */
+
+.nosotros{
+    display: grid;
+}
+
+@media screen and (min-width: 768px){
+    .nosotros{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+.nosotros__imagen{
+    grid-row: 1/2;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px){
+    .nosotros__imagen{
+        grid-column: 2/3;
+    }
+}
+
 /* -- Footer -- */
 
 .footer{
